@@ -1,554 +1,448 @@
-<!DOCTYPE HTML>
-<html lang="en" >
-    <head><meta charset="UTF-8">
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Jekyll Gitbook Theme · Nayoung Bae</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-"><meta name="generator" content="Jekyll (using style of GitBook)"><meta name="author" content="GitHub User"><link rel="stylesheet" href="/assets/gitbook/style.css">
-<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-fontsettings/website.css">
-<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-search-pro/search.css">
-<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+<!DOCTYPE html>
+<html lang="en">
 
-<link rel="stylesheet" href="/assets/gitbook/rouge/colorful.css">
-
-<link rel="stylesheet" href="/assets/gitbook/custom.css">
-<link rel="stylesheet" href="/assets/gitbook/custom-local.css">
-
-<meta name="HandheldFriendly" content="true"/>
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
-<link rel="shortcut icon" href="/" type="image/x-icon">
-
-
-
-
-
-        
-            <link rel="next" href="/jekyll/2019/04/27/why.html" />
-        
-    </head>
-    <body>
-        <div class="book"><div class="book-summary">
-    <script type="text/javascript">
-        // Fixes the page links scroll problem on both desktop and mobile browsers
-        function pageScrollToTop(element) {
-            // both mobile and non-mobile
-            $('div.body-inner').animate({scrollTop: 0});
-            $(element).parent().find('li>ul>li').removeClass('active');
-            return true;  // propagate
-        }
-        // Fixes the anchor links scroll problem on mobile browsers
-        function mobilePageScrollToAnchor(element) {
-            $(element).closest('li.chapter').find('ul>li').removeClass('active');
-            $(element).parent().addClass('active');
-            if ($(document).width() <= 1240) {
-                $('div.body-inner').animate({scrollTop: $($(element).attr('href')).get(0).offsetTop});
-            }
-            return true;
-        }
-    </script>
-
-    <nav role="navigation">
-        <div id="book-search-input" role="search">
-            <input type="text" placeholder="Type to search" />
-        </div>
-        <div id="book-search-input-link" role="search">
-            <a href="/assets/search.html">Click to Search</a>
-        </div>
-        <ul class="summary">
-            
-            <li class="chapter active" data-level="1.1" data-path="">
-            
-                <a href="/" onclick="pageScrollToTop(this)">
-                    Nayoung Bae
-                </a>
-            </li>
-
-            <li class="divider"></li>
-
-            
-                <!-- <p>posts</p> -->
-                
-                    
-
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2019/04/27/why.html">
-                        
-                            <a href="/jekyll/2019/04/27/why.html" onclick="pageScrollToTop(this)">
-                                Why Jekyll with GitBook
-                            </a>
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2019/04/28/howto.html">
-                        
-                            <a href="/jekyll/2019/04/28/howto.html" onclick="pageScrollToTop(this)">
-                                How to Get Started
-                            </a>
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2019/04/29/license.html">
-                        
-                            <a href="/jekyll/2019/04/29/license.html" onclick="pageScrollToTop(this)">
-                                License
-                            </a>
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2021/08/10/toc.html">
-                        
-                            <a href="/jekyll/2021/08/10/toc.html" onclick="pageScrollToTop(this)">
-                                How to Generate TOC
-                            </a>
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2022/05/24/page_cover.html">
-                        
-                            <a href="/jekyll/2022/05/24/page_cover.html" onclick="pageScrollToTop(this)">
-                                Page with cover image
-                            </a>
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2022/06/26/wide_tables.html">
-                        
-                            <a href="/jekyll/2022/06/26/wide_tables.html" onclick="pageScrollToTop(this)">
-                                Wide tables
-                            </a>
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2022/06/30/tips_warnings_dangers.html">
-                        
-                            <a href="/jekyll/2022/06/30/tips_warnings_dangers.html" onclick="pageScrollToTop(this)">
-                                Tips, Warnings, and Dangers
-                            </a>
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2023/08/31/mermaid.html">
-                        
-                            <a href="/jekyll/2023/08/31/mermaid.html" onclick="pageScrollToTop(this)">
-                                Diagrams with mermaid.js
-                            </a>
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2023/10/14/math-latex.html">
-                        
-                            <a href="/jekyll/2023/10/14/math-latex.html" onclick="pageScrollToTop(this)">
-                                MathJax and LaTeX
-                            </a>
-                            
-                        </li>
-                    
-
-                    
-                        <li class="divider"></li>
-                    
-                
-            
-
-            <li>
-                <a href="https://github.com/sighingnow/jekyll-gitbook/fork" target="blank" class="gitbook-link">
-                    Fork it Now!
-                </a>
-            </li>
-        </ul>
-    </nav>
-</div>
-<div class="book-body">
-                <div class="book-header" role="navigation">
-                    <!-- Title -->
-                    <h1>
-                        <i class="fa fa-circle-o-notch fa-spin"></i>
-                        
-                            <a href="." >Jekyll Gitbook Theme</a>
-                        
-                    </h1>
-                </div>
-
-                <div class="body-inner"><div class="page-wrapper" tabindex="-1" role="main">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
     
 
-    <div class="page-inner">
-        <div id="book-search-results">
-            <div class="search-noresults">
-                <section class="normal markdown-section">
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nayoung Bae</title>
+    <meta name="author" content="Nayoung Bae">
+    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+    <!-- Bootstrap & MDB -->
+    <link rel="stylesheet" href="/al-folio/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+    <!-- <link rel="stylesheet" href="/al-folio/assets/css/mdb.min.css?62a43d1430ddb46fc4886f9d0e3b49b8"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Bootstrap Table -->
+    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table.min.css">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="/al-folio/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="/al-folio/assets/css/jekyll-pygments-themes-github.css?19f3075a2d19613090fe9e16b564e1fe" media="" id="highlight_theme_light">
+
+    
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+    
+    <link rel="stylesheet" href="/al-folio/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+    <link rel="canonical" href="http://localhost:4000/al-folio/">
+
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="/al-folio/assets/css/jekyll-pygments-themes-native.css?e74e74bf055e5729d44a7d031a5ca6a5" media="none" id="highlight_theme_dark">
+    <script src="/al-folio/assets/js/theme.js?96d6b3e1c3604aca8b6134c7afdd5db6"></script>
+    <script src="/al-folio/assets/js/dark_mode.js?9b17307bb950ffa2e34be0227f53558f"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/al-folio/">about<span class="sr-only">(current)</span></a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/al-folio/blog/">blog</a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/al-folio/publications/">publications</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/al-folio/projects/">projects</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/al-folio/repositories/">repositories</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/al-folio/cv/">cv</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/al-folio/teaching/">teaching</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/al-folio/people/">people</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus</a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/al-folio/publications/">publications</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/al-folio/projects/">projects</a>
+                </div>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      
+        <!-- about.html -->
+      <div class="post">
+        <header class="post-header">
+          <h1 class="post-title">
+            <span class="font-weight-bold">You</span> R. Name
+          </h1>
+          <p class="desc"><a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.</p>
+        </header>
+
+        <article>
+          <div class="profile float-right">
+
+              <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/al-folio/assets/img/prof_pic-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/al-folio/assets/img/prof_pic-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/al-folio/assets/img/prof_pic-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/al-folio/assets/img/prof_pic.jpg?974957d202f671e4fa6700c04e68deae" class="img-fluid z-depth-1 rounded" width="auto" height="auto" alt="prof_pic.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+
+            <div class="more-info">
+              <p>555 your office number</p> <p>123 your address street</p> <p>Your City, State 12345</p>
+
+            </div>
+          </div>
+
+          <div class="clearfix">
+            <p>Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" rel="external nofollow noopener" target="_blank">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture <code class="language-plaintext highlighter-rouge">prof_pic.jpg</code> and put it in the <code class="language-plaintext highlighter-rouge">img/</code> folder.</p>
+
+<p>Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing <code class="language-plaintext highlighter-rouge">profile</code> property of the YAML header of your <code class="language-plaintext highlighter-rouge">_pages/about.md</code>. Edit <code class="language-plaintext highlighter-rouge">_bibliography/papers.bib</code> and Jekyll will render your <a href="/al-folio/publications/">publications page</a> automatically.</p>
+
+<p>Link to your social media connections, too. This theme is set up to use <a href="http://fortawesome.github.io/Font-Awesome/" rel="external nofollow noopener" target="_blank">Font Awesome icons</a> and <a href="https://jpswalsh.github.io/academicons/" rel="external nofollow noopener" target="_blank">Academicons</a>, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.</p>
+
+          </div>
+
+          <!-- News -->
+          <h2><a href="/al-folio/news/" style="color: inherit;">news</a></h2>          <div class="news">
+            <div class="table-responsive">
+              <table class="table table-sm table-borderless">
+              
+                <tr>
+                  <th scope="row">Jan 15, 2016</th>
+                  <td>
+                    A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">
+
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Nov 8, 2015</th>
+                  <td>
+                    <a class="news-title" href="/al-folio/news/announcement_2/">A long announcement with details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Oct 23, 2015</th>
+                  <td>
+                    A simple inline announcement.
+
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <!-- Latest posts -->
+          <h2><a href="/al-folio/blog/" style="color: inherit;">latest posts</a></h2>
+          <div class="news">
+            <div class="table-responsive" style="max-height: 60vw">
+              <table class="table table-sm table-borderless">
+              
+                <tr>
+                  <th scope="row">Jul 12, 2023</th>
+                  <td>
                     
-                        <h1 id="">Jekyll Gitbook Theme</h1>
+                      <a class="news-title" href="/al-folio/blog/2023/post-bibliography/">a post with bibliography</a>
                     
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Jul 4, 2023</th>
+                  <td>
+                    
+                      <a class="news-title" href="/al-folio/blog/2023/jupyter-notebook/">a post with jupyter notebook</a>
+                    
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">May 13, 2023</th>
+                  <td>
+                    
+                      <a class="news-title" href="/al-folio/blog/2023/custom-blockquotes/">a post with custom blockquotes</a>
+                    
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
 
-                    <p>Make Jelly site have a GitBook look!</p>
 
-<h2 id="demo">Demo</h2>
+          <!-- Selected papers -->
+          <h2><a href="/al-folio/publications/" style="color: inherit;">selected publications</a></h2>
+          <div class="publications">
+            <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+<div class="col-sm-2 abbr"><abbr class="badge"><a href="https://journals.aps.org/" rel="external nofollow noopener" target="_blank">PhysRev</a></abbr></div>
+<!-- Entry bib key -->
+        <div id="PhysRev.47.777" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?</div>
+        <!-- Author -->
+        <div class="author">
+        
 
-<p>Live demo on Github Pages: <a href="https://sighingnow.github.io/jekyll-gitbook">https://sighingnow.github.io/jekyll-gitbook</a></p>
-
-<p><a href="https://jekyll-themes.com/jekyll-gitbook/"><img src="https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg" alt="Jekyll Themes" /></a></p>
-
-<h2 id="why-jekyll-with-gitbook">Why Jekyll with GitBook</h2>
-
-<p>GitBook is an amazing frontend style to present and organize contents (such as book chapters
-and blogs) on Web. The typical to deploy GitBook at <a href="https://pages.github.com">Github Pages</a>
-is building HTML files locally and then push to Github repository, usually to the <code class="language-plaintext highlighter-rouge">gh-pages</code>
-branch. It’s quite annoying to repeat such workload and make it hard for people do version
-control via git for when there are generated HTML files to be staged in and out.</p>
-
-<p>This theme takes style definition out of generated GitBook site and provided the template
-for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed
-to <a href="https://pages.github.com">Github Pages</a> without generating and uploading HTML bundle every time when there are
-changes to the original repo.</p>
-
-<h2 id="how-to-get-started">How to Get Started</h2>
-
-<p>This theme can be used just as other <a href="https://pages.github.com">Jekyll themes</a> and support <a href="https://rubygems.org/gems/jekyll-remote-theme">remote theme</a>,
-see <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll">the official guide</a> as well.</p>
-
-<p>You can introduce this jekyll theme into your own site by either</p>
-
-<ul>
-  <li><a href="https://github.com/sighingnow/jekyll-gitbook/fork">Fork</a> this repository and add your markdown posts to the <code class="language-plaintext highlighter-rouge">_posts</code> folder.</li>
-  <li>Use as a remote theme in your <a href="https://github.com/sighingnow/jekyll-gitbook/blob/master/_config.yml"><code class="language-plaintext highlighter-rouge">_config.yml</code></a>(just like what we do for this
-site itself),</li>
-</ul>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">remote_theme</span><span class="pi">:</span> <span class="s">sighingnow/jekyll-gitbook</span>
-</code></pre></div></div>
-
-<h3 id="deploy-locally-with-jekyll-serve">Deploy Locally with Jekyll Serve</h3>
-
-<p>This theme can be ran locally using Ruby and Gemfiles.</p>
-
-<p><a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll">Testing your GitHub Pages site locally with Jekyll</a> - GitHub</p>
-
-<h2 id="full-text-search">Full-text search</h2>
-
-<p>The search functionality in jekyll-gitbook theme is powered by the <a href="https://github.com/gitbook-plugins/gitbook-plugin-search-pro">gitbook-plugin-search-pro</a> plugin and is enabled by default.</p>
-
-<p><a href="https://sighingnow.github.io/jekyll-gitbook/?q=generated">https://sighingnow.github.io/jekyll-gitbook/?q=generated</a></p>
-
-<h2 id="code-highlight">Code highlight</h2>
-
-<p>The code highlight style is configurable the following entry in <code class="language-plaintext highlighter-rouge">_config.yaml</code>:</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">syntax_highlighter_style</span><span class="pi">:</span> <span class="s">colorful</span>
-</code></pre></div></div>
-
-<p>The default code highlight style is <code class="language-plaintext highlighter-rouge">colorful</code>, the full supported styles can be found from <a href="https://github.com/rouge-ruby/rouge/tree/master/lib/rouge/themes">the rouge repository</a>. Customized
-style can be added to <a href="./assets/gitbook/rouge/">./assets/gitbook/rouge/</a>.</p>
-
-<h2 id="how-to-generate-toc">How to generate TOC</h2>
-
-<p>The jekyll-gitbook theme leverages <a href="https://github.com/allejo/jekyll-toc">jekyll-toc</a> to generate the <em>Contents</em> for the page.
-The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
-configuration in <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">toc</span><span class="pi">:</span>
-    <span class="na">enabled</span><span class="pi">:</span> <span class="kc">true</span>
-    <span class="na">h_min</span><span class="pi">:</span> <span class="m">1</span>
-    <span class="na">h_max</span><span class="pi">:</span> <span class="m">3</span>
-</code></pre></div></div>
-
-<h2 id="google-analytics-etc">Google Analytics, etc.</h2>
-
-<p>The jekyll-gitboook theme supports embedding the <a href="https://analytics.google.com/analytics/web/">Google Analytics</a>, <a href="https://www.cnzz.com/">CNZZ</a> and <a href="https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview">Application Insights</a> website analytical tools with the following
-minimal configuration in <code class="language-plaintext highlighter-rouge">_config.yaml</code>:</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">tracker</span><span class="pi">:</span>
-  <span class="na">google_analytics</span><span class="pi">:</span> <span class="s2">"</span><span class="s">&lt;YOUR</span><span class="nv"> </span><span class="s">GOOGLE</span><span class="nv"> </span><span class="s">ANALYTICS</span><span class="nv"> </span><span class="s">KEY,</span><span class="nv"> </span><span class="s">e.g,</span><span class="nv"> </span><span class="s">UA-xxxxxx-x&gt;"</span>
-</code></pre></div></div>
-
-<p>Similarly, CNZZ can be added with the following configuration in <code class="language-plaintext highlighter-rouge">_config.yaml</code></p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">tracker</span><span class="pi">:</span>
-  <span class="na">cnzz</span><span class="pi">:</span> <span class="s2">"</span><span class="s">&lt;YOUR</span><span class="nv"> </span><span class="s">CNZZ</span><span class="nv"> </span><span class="s">ANALYTICS</span><span class="nv"> </span><span class="s">KEY,</span><span class="nv"> </span><span class="s">e.g.,</span><span class="nv"> </span><span class="s">xxxxxxxx&gt;"</span>
-</code></pre></div></div>
-
-<p>Application Insights can be added with the following configuration in <code class="language-plaintext highlighter-rouge">_config.yaml</code></p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">tracker</span><span class="pi">:</span>
-  <span class="na">application_insights</span><span class="pi">:</span> <span class="s2">"</span><span class="s">&lt;YOUR</span><span class="nv"> </span><span class="s">APPLICATION</span><span class="nv"> </span><span class="s">INSIGHTS</span><span class="nv"> </span><span class="s">CONNECTION</span><span class="nv"> </span><span class="s">STRING&gt;"</span>
-</code></pre></div></div>
-
-<h2 id="disqus-comments">Disqus comments</h2>
-
-<p><a href="https://disqus.com/">Disqus</a> comments can be enabled by adding the following configuration in <code class="language-plaintext highlighter-rouge">_config.yaml</code>:</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">disqushandler</span><span class="pi">:</span> <span class="s2">"</span><span class="s">&lt;YOUR</span><span class="nv"> </span><span class="s">DISQUS</span><span class="nv"> </span><span class="s">SHORTNAME&gt;"</span>
-</code></pre></div></div>
-
-<h2 id="extra-stylesheet-or-javascript-elements">Extra StyleSheet or Javascript elements</h2>
-
-<p>You can add extra CSS or JavaScript references using configuration collections:</p>
-
-<ul>
-  <li>extra_css: for additional style sheets. If the url does not start by http, the path must be relative to the root of the site, without a starting <code class="language-plaintext highlighter-rouge">/</code>.</li>
-  <li>extra_header_js: for additional scripts to be included in the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> tag, after the <code class="language-plaintext highlighter-rouge">extra_css</code> has been added. If the url does not start by http, the path must be relative to the root of the site, without a starting <code class="language-plaintext highlighter-rouge">/</code>.</li>
-  <li>extra_footer_js: for additional scripts to be included at the end of the HTML document, just before the site tracking script. If the url does not start by http, the path must be relative to the root of the site, without a starting <code class="language-plaintext highlighter-rouge">/</code>.</li>
-</ul>
-
-<h2 id="customizing-font-settings">Customizing font settings</h2>
-
-<p>The fonts can be customized by modifying the <code class="language-plaintext highlighter-rouge">.book.font-family-0</code> and <code class="language-plaintext highlighter-rouge">.book.font-family-1</code> entry in <a href="https://github.com/sighingnow/jekyll-gitbook/blob/master/gitbook/custom.css"><code class="language-plaintext highlighter-rouge">./assets/gitbook/custom.css</code></a>,</p>
-
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.book.font-family-0</span> <span class="p">{</span>
-    <span class="nl">font-family</span><span class="p">:</span> <span class="n">Georgia</span><span class="p">,</span> <span class="nb">serif</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="nc">.book.font-family-1</span> <span class="p">{</span>
-    <span class="nl">font-family</span><span class="p">:</span> <span class="s1">"Helvetica Neue"</span><span class="p">,</span> <span class="n">Helvetica</span><span class="p">,</span> <span class="n">Arial</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<h2 id="tips-warnings-and-dangers-blocks">Tips, Warnings and Dangers blocks</h2>
-
-<p>The jekyll-gitbook theme supports customized kramdown attributes (<code class="language-plaintext highlighter-rouge">{: .block-tip }</code>, <code class="language-plaintext highlighter-rouge">{: .block-warning }</code>,
-<code class="language-plaintext highlighter-rouge">{: .block-danger }</code>) like that displayed in <a href="https://discordjs.guide/popular-topics/canvas.html#setting-up-napi-rs-canvas">the discord.js website</a>. The marker can be used like</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### TIP</span>
-<span class="gt">&gt;</span>
-<span class="gt">&gt; This guide is last tested with @napi-rs/canvas^0.1.20, so make sure you have</span>
-<span class="gt">&gt; this or a similar version after installation.</span>
-{: .block-tip }
-</code></pre></div></div>
-
-<p>Rendered page can be previewed from</p>
-
-<p><a href="https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html">https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html</a></p>
-
-<h2 id="cover-image-inside-pages">Cover image inside pages</h2>
-
-<p>The jekyll-gitbook theme supports adding a cover image to a specific page by adding
-a <code class="language-plaintext highlighter-rouge">cover</code> field to the page metadata:</p>
-
-<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ---
-  title: Page with cover image
-  author: Tao He
-  date: 2022-05-24
-  category: Jekyll
-  layout: post
-<span class="gi">+ cover: /assets/jekyll-gitbook/dinosaur.gif
-</span>  ---
-</code></pre></div></div>
-
-<p>The effect can be previewed from</p>
-
-<p><a href="https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html">https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html</a></p>
-
-<h2 id="diagrams-with-mermaidjs">Diagrams with mermaid.js</h2>
-
-<p>This jekyll-theme supports <a href="https://mermaid.js.org/">mermaid.js</a> to render diagrams
-in markdown.</p>
-
-<p>To enable the mermaid support, you need to set <code class="language-plaintext highlighter-rouge">mermaid: true</code> in the front matter
-of your post.</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
-<span class="na">mermaid</span><span class="pi">:</span> <span class="kc">true</span>
-<span class="nn">---</span>
-</code></pre></div></div>
-
-<p>The example can be previewed from</p>
-
-<p><a href="https://sighingnow.github.io/jekyll-gitbook/jekyll/2023-08-31-mermaid.html">https://sighingnow.github.io/jekyll-gitbook/jekyll/2023-08-31-mermaid.html</a></p>
-
-<h2 id="license">License</h2>
-
-<p>This work is open sourced under the Apache License, Version 2.0.</p>
-
-<p>Copyright 2019 Tao He.</p>
-
-</section>
-            </div><div class="search-results">
-    <div class="has-results">
-        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
-        <ul class="search-results-list"></ul>
-    </div>
-    <div class="no-results">
-        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
-    </div>
-</div></div>
-    </div>
+        <em>A. Einstein</em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" rel="external nofollow noopener" target="_blank">B. Podolsky</a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" rel="external nofollow noopener" target="_blank">N. Rosen</a>
 </div>
 
-<!-- introduce mathjax support -->
-<script>
-window.MathJax = {
-  tex: {
-    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
-  },
-  svg: {
-    fontCache: 'global'
-  }
-};
-</script>
-<script
-  type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Phys. Rev.</em>, May 1935
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/al-folio/assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+          
+          
+          
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1103/PhysRev.47.777"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+          </div>
 
 
-<!-- introduce per-page mermaid support -->
+          <!-- Social -->
+            <div class="social">
+              <div class="contact-icons">
+                <a href="mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D" title="email"><i class="fas fa-envelope"></i></a>
+            <a href="/al-folio/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
+            
 
-<a href="/" class="navigation navigation-pre navigation-unique">
-                        <i class="fa"></i>
-                    </a>
+              </div>
 
-                    
-                        <a href="/jekyll/2019/04/27/why.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Why Jekyll with GitBook">
-                            <i class="fa fa-angle-right"></i>
-                        </a>
-                    
-                </div>
+              <div class="contact-note">
+                You can even add a little note about which of these is the best way to reach you.
+
+              </div>
+
             </div>
+        </article>
 
-            <script>
-            var gitbook = gitbook || [];
-            gitbook.push(function() {
-                gitbook.page.hasChanged({
-    "page": {
-        "title": "Introduction",
-        "level": "1.1",
-        "depth": 1,
-        
+</div>
 
-        
-        "next": {
-            "title": "Why Jekyll with GitBook",
-            "level": "1.2",
-            "depth": 1,
-            "path": "_posts/2019-04-27-why.md",
-            "ref": "_posts/2019-04-27-why.md",
-            "articles": []
-        },
-        
-        "dir": "ltr"
-    },    "config": {
-        "plugins": ["fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
-        "styles": {
-            "ebook": "styles/ebook.css",
-            "epub": "styles/epub.css",
-            "mobi": "styles/mobi.css",
-            "pdf": "styles/pdf.css",
-            "print": "styles/print.css",
-            "website": "styles/website.css"
-        },
-        "pluginsConfig": {
-            "fontsettings": {
-                "family": "sans",
-                "size": 2,
-                "theme": "white"
-            },
-            "highlight": {},
-            "livereload": {},
-            "lunr": {
-                "ignoreSpecialCharacters": false,
-                "maxIndexSize": 1000000
-            },
-            "search": {},            "sharing": {
-                "facebook": true,
+      
+    </div>
 
-                "google": false,
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2023 Nayoung Bae. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
 
-                "github": true,
-              
-                "github_link": "https://github.com",
-              
+      </div>
+    </footer>
 
-                "telegram": false,
-                "telegram_link": "https://t.me",
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-                "instapaper": false,
+    <!-- Bootsrap & MDB scripts -->
+  <script src="/al-folio/assets/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="/al-folio/assets/js/mdb.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
 
-                "twitter": true,
-              
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/al-folio/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/al-folio/assets/js/zoom.js?7b30caa5023af4af8408a472dc4e1ebb"></script>
 
-                "vk": false,
+  <!-- Bootstrap Table -->
+  <script defer src="https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table.min.js"></script>
 
-                "weibo": false,
+  <!-- Load Common JS -->
+  <script src="/al-folio/assets/js/no_defer.js?d633890033921b33e0ceb13d22340a9c"></script>
+  <script defer src="/al-folio/assets/js/common.js?acdb9690d7641b2f8d40529018c71a01"></script>
+  <script defer src="/al-folio/assets/js/copy_code.js?c9d9dd48933de3831b3ee5ec9c209cac" type="text/javascript"></script>
 
-                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "github", "telegram"]
-            },
-"theme-default": {
-                "showLevel": false,
-                "styles": {
-                    "ebook": "styles/ebook.css",
-                    "epub": "styles/epub.css",
-                    "mobi": "styles/mobi.css",
-                    "pdf": "styles/pdf.css",
-                    "print": "styles/print.css",
-                    "website": "styles/website.css"
-                }
-            }
-        },
-        "theme": "default",
-        "author": "Tao He",
-        "pdf": {
-            "pageNumbers": true,
-            "fontSize": 12,
-            "fontFamily": "Arial",
-            "paperSize": "a4",
-            "chapterMark": "pagebreak",
-            "pageBreaksBefore": "/",
-            "margin": {
-                "right": 62,
-                "left": 62,
-                "top": 56,
-                "bottom": 56
-            }
-        },
-        "structure": {
-            "langs": "LANGS.md",
-            "readme": "README.md",
-        },
-        "variables": {},
-        "title": "Nayoung Bae",
-        "language": "en",
-        "gitbook": "*"
-    },
-    "file": {
-        "path": "README.md",
-        "mtime": "",
-        "type": "markdown"
-    },
-    "gitbook": {
-        "version": "",
-        "time": "2023-10-25 17:39:15 +0900"
-    },
-    "basePath": "",
-    "book": {
-        "language": ""
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
     }
-});
-            });
-            </script>
-        </div><script src="/assets/gitbook/gitbook.js"></script>
-<script src="/assets/gitbook/theme.js"></script>
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
 
-<script src="/assets/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
-<script src="/assets/gitbook/gitbook-plugin-sharing/buttons.js"></script>
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
 
-<!-- <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
-<script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-<script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
-<script src="../gitbook/gitbook-plugin-search/search.js"></script> -->
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
 
-<script src="/assets/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
-<script src="/assets/gitbook/gitbook-plugin-search-pro/search.js"></script>
-<script src="/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
-<script src="/assets/gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
-
-</body>
+    
+  </body>
 </html>
